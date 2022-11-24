@@ -7,7 +7,7 @@ const Cart = () => {
             <div className='profile'>
                 <img src={profileImg} alt="profileImg" />
                 <div>
-                    <h3>Abu Sayed</h3>
+                    <h3 style={{ color: '#212432' }}>Abu Sayed</h3>
                     <p>Dhaka, Bangladesh</p>
                 </div>
             </div>
@@ -22,7 +22,7 @@ const Cart = () => {
                     <span className='profile-style'>22</span>yrs <br />  <span className='text-color'>Age</span>
                 </p>
             </div>
-            <h3 className='title-name'>Add A Break </h3>
+            <h3 className='title-name' style={{ color: '#212432' }}>Add A Break </h3>
             <div className='break-details'>
                 <p>10s</p>
                 <p>20s</p>
@@ -30,16 +30,16 @@ const Cart = () => {
                 <p>40s</p>
                 <p>50s</p>
             </div>
-            <h3 className='title-name'>Exercise Details</h3>
+            <h3 className='title-name' style={{ color: '#212432' }}>Exercise Details</h3>
             <div className='exercise-details'>
-                <h3>Exercise time</h3>
+                <h4>Exercise time</h4>
                 <p> 200 seconds</p>
             </div>
-            <div>
-                <h3>Break time </h3>
+            <div className='break-time-details'>
+                <h4>Break time </h4>
                 <p>15 seconds</p>
             </div>
-            <button>Activity Completed</button>
+            <button className='cart-btn'>Activity Completed</button>
         </div>
     );
 };

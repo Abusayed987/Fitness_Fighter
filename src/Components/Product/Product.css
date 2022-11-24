@@ -5,6 +5,7 @@
     padding: 10px;
     border-radius: 7px;
     margin-top: 15px;
+    position: relative;
 }
 
 .product h4 {
@@ -16,6 +17,7 @@
     width: 260px;
     height: 160px;
     border-radius: 8px;
+    text-align: center;
 }
 
 .text-color {
@@ -31,12 +33,12 @@
     border-color: transparent;
     border-radius: 8px;
     padding: 10px 20px;
-    width: 100%;
-    /* margin-top: 5px; */
+    width: 93%;
+    position: absolute;
+    bottom: 10px;
 }
 
 .product button:hover {
-    /* background-color: #4d5164; */
     background-color: #E01B77;
     cursor: pointer;
 }
