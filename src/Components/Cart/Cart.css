@@ -2,8 +2,11 @@
     background-color: #fff;
     position: sticky;
     top: 0;
-    padding: 30px;
-    /* padding-left: 30px; */
+    padding: 25px;
+}
+
+.title-name {
+    margin-top: 35px;
 }
 
 .cart-container img {
@@ -40,4 +43,31 @@ p {
 .profile-style {
     font-size: 22px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.break-details,
+.exercise-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+    border-radius: 8px;
+    margin-top: 30px;
+    background-color: #F0F4F6;
+}
+
+.break-details p {
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.break-details p:hover {
+    color: #fff;
+    background-color: #dd3785d8;
+}
+
+.exercise-details h3 {
+    color: red;
 }

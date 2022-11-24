@@ -22,16 +22,16 @@ const Cart = () => {
                     <span className='profile-style'>22</span>yrs <br />  <span className='text-color'>Age</span>
                 </p>
             </div>
-            <h3>Add A Break </h3>
-            <div>
-                <p>Time s</p>
-                <p>Time s</p>
-                <p>Time s</p>
-                <p>Time s</p>
-                <p>Time s</p>
+            <h3 className='title-name'>Add A Break </h3>
+            <div className='break-details'>
+                <p>10s</p>
+                <p>20s</p>
+                <p>30s</p>
+                <p>40s</p>
+                <p>50s</p>
             </div>
-            <h3>Exercise Details</h3>
-            <div>
+            <h3 className='title-name'>Exercise Details</h3>
+            <div className='exercise-details'>
                 <h3>Exercise time</h3>
                 <p> 200 seconds</p>
             </div>
