@@ -8,13 +8,19 @@ const Cart = () => {
                 <img src={profileImg} alt="profileImg" />
                 <div>
                     <h3>Abu Sayed</h3>
-                    <p>address</p>
+                    <p>Dhaka, Bangladesh</p>
                 </div>
             </div>
-            <div>
-                <p>Weight</p>
-                <p>height</p>
-                <p>age</p>
+            <div className='profile-details'>
+                <p>
+                    <span className='profile-style'>62 </span> kg<br /> <span className='text-color'>Weight</span>
+                </p>
+                <p>
+                    <span className='profile-style'>5.9</span> <br /> <span className='text-color'>Height</span>
+                </p>
+                <p>
+                    <span className='profile-style'>22</span>yrs <br />  <span className='text-color'>Age</span>
+                </p>
             </div>
             <h3>Add A Break </h3>
             <div>
