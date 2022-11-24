@@ -1,14 +1,23 @@
 import React, { useEffect, useState } from 'react';
 import './Cart.css'
 import profileImg from '../../images/coding_zone.png';
-const Cart = () => {
+const Cart = (props) => {
     let [timeOne, timeTwo, timeThree, timeFour] = [10, 20, 30, 40];
+    const { cart } = props;
     const [time, setTime] = useState([])
     const breakHandler = (time) => {
         setTime(time)
     }
+
+    let excerciseTime = 0;
+
+    for (const product of cart) {
+        excerciseTime = excerciseTime + product.time
+        console.log(excerciseTime);
+    }
     return (
         <div className='cart-container'>
+            <p>{props.cart.length}</p>
             <div className='profile'>
                 <img src={profileImg} alt="profileImg" />
                 <div>
@@ -37,7 +46,7 @@ const Cart = () => {
             <h3 className='title-name' style={{ color: '#212432' }}>Exercise Details</h3>
             <div className='exercise-details'>
                 <h4>Exercise time</h4>
-                <p> 200 seconds</p>
+                <p>{excerciseTime}<span className='text-color'>seconds</span></p>
             </div>
             <div className='break-time-details'>
                 <h4>Break time </h4>
