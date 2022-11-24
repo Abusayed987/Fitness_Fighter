@@ -1,0 +1,24 @@
+.shop-component {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.product-component {
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: #4296CA;
+}
+
+.logo img {
+    width: 80px;
+}
+
+.text {
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
