@@ -2,43 +2,81 @@
     {
         "id": "637e5333dac2b4447901eabb",
         "picture": "https://content.active.com/Assets/Active.com+Content+Site+Digital+Assets/Fitness/Articles/Best+Equipment+for+Small+Spaces/man-using-a-pull-up-bar-carousel.jpg",
-        "age": 40,
-        "name": "VIAGRAND",
+        "age": "22-30",
+        "time": 30,
+        "name": "Chest Press Machine",
         "about": "Aliqua ex adipisicing adipisicing consequat quis ad qui ea. Aute laboris excepteur esse ex ut magna ullamco dolore consequat quis id eu ut."
     },
     {
         "id": "637e53331976427cda40241a",
-        "picture": "http://placehold.it/32x32",
-        "age": 24,
-        "name": "ORBALIX",
+        "picture": "https://media.istockphoto.com/id/876874020/photo/young-handsome-man-doing-exercises-in-gym.jpg?s=612x612&w=0&k=20&c=tEgTHrmO6R2qabEaw07pkbC7SVjUg1TvfMUyQHy1YuI=",
+        "age": "22-25",
+        "time": 25,
+        "name": "Seated Dip Machine",
         "about": "Mollit sunt tempor deserunt sunt aliqua voluptate tempor quis nisi labore tempor in magna ex. Dolor veniam minim sit est dolore mollit velit."
     },
     {
         "id": "637e53330ab44a4b640648d5",
-        "picture": "http://placehold.it/32x32",
-        "age": 35,
-        "name": "ACCUPHARM",
+        "picture": "https://media.istockphoto.com/id/1217824952/photo/smiling-muscular-man-using-shoulder-press-at-the-gym.jpg?s=612x612&w=0&k=20&c=fpG-EnkGk_wN9-yw_y3m0ej5pWbZqvfzANKVsDyN9PY=",
+        "age": "25-30",
+        "time": 40,
+        "name": "Chest Fly Machine",
         "about": "Esse eiusmod do labore magna voluptate dolore irure esse eiusmod dolore nostrud ea. Sint est reprehenderit cillum aute non labore Mollit ."
     },
     {
         "id": "637e533385efc87ce8dcd81b",
-        "picture": "http://placehold.it/32x32",
-        "age": 32,
-        "name": "ECRAZE",
+        "picture": "https://media.istockphoto.com/id/519491361/photo/portrait-of-muscular-man-training.jpg?s=612x612&w=0&k=20&c=Tj0u_WjPgG52Omh4hntwV1i1MJitkfVkKmf0ekg9QFA=",
+        "age": "30-35",
+        "time": 35,
+        "name": "Bench Press",
         "about": "Do reprehenderit laborum fugiat sunt cillum dolore tempor dolore id laborum. Nulla qui laboris consectetur ad. Qui reprehenderit culpa officia ex minim ad esse quis voluptate ipsum tempor deserunt proident. Mollit officia incididunt cupidatat ut. Quis consectetur ea ipsum duis. Dolore eu aliquip sint dolore aliquip."
     },
     {
         "id": "637e53330876094e6458a8ee",
-        "picture": "http://placehold.it/32x32",
-        "age": 36,
-        "name": "BEADZZA",
+        "picture": "https://media.istockphoto.com/id/1338185944/photo/a-fit-asian-man-performs-some-squats-at-the-smith-machine-working-out-leg-day-training-at-the.jpg?s=612x612&w=0&k=20&c=WsxJ8ouWlze38ycqAAAaW5_0PMJXkFyI2j6Mmn5bOk0=",
+        "age": "22-28",
+        "time": 28,
+        "name": "Incline Bench Press",
         "about": "Et reprehenderit esse in non ullamco sit officia elit ex id elit veniam. Nostrud sint velit elit ea proident sit et nulla deserunt do voluptate. "
     },
     {
         "id": "637e53335a6653929060465d",
-        "picture": "http://placehold.it/32x32",
-        "age": 37,
-        "name": "BISBA",
+        "picture": "https://media.istockphoto.com/id/838386570/photo/strong-man-doing-deadlift-training-in-gym.jpg?s=612x612&w=0&k=20&c=ok5sL3Fr8dos-fthuxQkjTZsIRN9mu0bhNE4RODC9CI=",
+        "age": "20-40",
+        "time": 40,
+        "name": "Decline Bench Press",
+        "about": "Eu nulla ut consectetur quis aliqua. In officia veniam cillum dolor pariatur reprehenderit sunt non veniam qui aute proident sit est Dolore ."
+    },
+    {
+        "id": "637e53335a6653929060465d",
+        "picture": "https://media.istockphoto.com/id/815635642/photo/triceps-extension-exercise.jpg?s=612x612&w=0&k=20&c=DF57V_3sOvvYZmt-w38_ayubTDlX8-GMfj5DQmfVi9o=",
+        "age": "35-40",
+        "time": 25,
+        "name": "Adjustable Bench",
+        "about": "Eu nulla ut consectetur quis aliqua. In officia veniam cillum dolor pariatur reprehenderit sunt non veniam qui aute proident sit est Dolore ."
+    },
+    {
+        "id": "637e53335a6653929060465d",
+        "picture": "https://media.istockphoto.com/id/625739874/photo/heavy-weight-exercise.jpg?s=612x612&w=0&k=20&c=B1uzJW1DBei2Rx5hnt139tt9dt3L7TbKrpgwbMR-LrI=",
+        "age": "20-24",
+        "time": 20,
+        "name": "Olympic Weight Bench",
+        "about": "Eu nulla ut consectetur quis aliqua. In officia veniam cillum dolor pariatur reprehenderit sunt non veniam qui aute proident sit est Dolore ."
+    },
+    {
+        "id": "637e53335a6653929060465d",
+        "picture": "https://media.istockphoto.com/id/1223590138/photo/low-section-of-woman-training-on-exercise-bike-at-home.jpg?s=612x612&w=0&k=20&c=BlpnGA6enbxNG5JDzIRbP_zz16RgybBon6WS-ue3LyI=",
+        "age": "20-40",
+        "time": 30,
+        "name": " Arm Extention Machine",
+        "about": "Eu nulla ut consectetur quis aliqua. In officia veniam cillum dolor pariatur reprehenderit sunt non veniam qui aute proident sit est Dolore ."
+    },
+    {
+        "id": "637e53335a6653929060465d",
+        "picture": "https://media.istockphoto.com/id/1326480457/photo/working-out-man-training-legs-and-core-ab-workout-doing-lunge-twist-exercise-with-medicine.jpg?s=612x612&w=0&k=20&c=4WgHty6gNkJpQ_nuOoKT5FdY0HOc9jvK4Tb4vC_ddWk=",
+        "age": "22-32",
+        "time": 25,
+        "name": " Triceps Press",
         "about": "Eu nulla ut consectetur quis aliqua. In officia veniam cillum dolor pariatur reprehenderit sunt non veniam qui aute proident sit est Dolore ."
     }
 ]

@@ -2,12 +2,16 @@ import React from 'react';
 import './Product.css'
 const Product = (props) => {
     // console.log(props.product);
-    const { picture, age, name, about } = props.product
+    const { picture, age, name, about, time } = props.product
     return (
         <div>
-            <h1>asdf</h1>
-            <p> age {age}</p>
-            <img src={picture} alt="" />
+            <div>
+                <img src={picture} alt="" />
+                <h4>{name}</h4>
+                <p>{about}</p>
+                <p>For Age :{age}</p>
+                <p>Time required : {time}s</p>
+            </div>
         </div>
     );
 };
