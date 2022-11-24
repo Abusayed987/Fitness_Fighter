@@ -20,12 +20,14 @@ const Shop = () => {
                 <div>
                     <h3 className='text'>Select today's Exercise!</h3>
                 </div>
-                {
-                    products.map(product => <Product
-                        product={product}
-                        key={product.id}
-                    ></Product>)
-                }
+                <div className='product-container'>
+                    {
+                        products.map(product => <Product
+                            product={product}
+                            key={product.id}
+                        ></Product>)
+                    }
+                </div>
             </div>
             <div className='cart-component'>
                 <Cart></Cart>

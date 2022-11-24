@@ -1,0 +1,22 @@
+.cart-container {
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    padding-top: 60px;
+    padding-left: 30px;
+}
+
+.cart-container img {
+    width: 60px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile h3,
+p {
+    margin: 5px;
+    padding-left: 10px;
+}
