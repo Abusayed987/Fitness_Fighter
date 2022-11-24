@@ -1,13 +1,5 @@
 [
     {
-        "id": "637e5333dac2b4447901eabb",
-        "picture": "https://content.active.com/Assets/Active.com+Content+Site+Digital+Assets/Fitness/Articles/Best+Equipment+for+Small+Spaces/man-using-a-pull-up-bar-carousel.jpg",
-        "age": "22-30",
-        "time": 30,
-        "name": "Chest Press Machine",
-        "about": "Aliqua ex adipisicing adipisicing consequat quis ad qui ea. Aute laboris excepteur esse ex ut magna ullamco dolore consequat quis id eu ut."
-    },
-    {
         "id": "637e53331976427cda40241a",
         "picture": "https://media.istockphoto.com/id/876874020/photo/young-handsome-man-doing-exercises-in-gym.jpg?s=612x612&w=0&k=20&c=tEgTHrmO6R2qabEaw07pkbC7SVjUg1TvfMUyQHy1YuI=",
         "age": "22-25",
@@ -48,7 +40,7 @@
         "about": "Eu nulla ut consectetur quis aliqua. In officia veniam cillum dolor pariatur reprehenderit sunt non veniam qui aute proident sit est Dolore ."
     },
     {
-        "id": "637e53335a6653929060465d",
+        "id": "637e53335a6653929060466d",
         "picture": "https://media.istockphoto.com/id/815635642/photo/triceps-extension-exercise.jpg?s=612x612&w=0&k=20&c=DF57V_3sOvvYZmt-w38_ayubTDlX8-GMfj5DQmfVi9o=",
         "age": "35-40",
         "time": 25,
@@ -56,7 +48,7 @@
         "about": "Eu nulla ut consectetur quis aliqua. In officia veniam cillum dolor pariatur reprehenderit sunt non veniam qui aute proident sit est Dolore ."
     },
     {
-        "id": "637e53335a6653929060465d",
+        "id": "637e53335a6653929060467d",
         "picture": "https://media.istockphoto.com/id/625739874/photo/heavy-weight-exercise.jpg?s=612x612&w=0&k=20&c=B1uzJW1DBei2Rx5hnt139tt9dt3L7TbKrpgwbMR-LrI=",
         "age": "20-24",
         "time": 20,
@@ -64,7 +56,7 @@
         "about": "Eu nulla ut consectetur quis aliqua. In officia veniam cillum dolor pariatur reprehenderit sunt non veniam qui aute proident sit est Dolore ."
     },
     {
-        "id": "637e53335a6653929060465d",
+        "id": "637e53335a6653929060468d",
         "picture": "https://media.istockphoto.com/id/1223590138/photo/low-section-of-woman-training-on-exercise-bike-at-home.jpg?s=612x612&w=0&k=20&c=BlpnGA6enbxNG5JDzIRbP_zz16RgybBon6WS-ue3LyI=",
         "age": "20-40",
         "time": 30,
@@ -72,7 +64,7 @@
         "about": "Eu nulla ut consectetur quis aliqua. In officia veniam cillum dolor pariatur reprehenderit sunt non veniam qui aute proident sit est Dolore ."
     },
     {
-        "id": "637e53335a6653929060465d",
+        "id": "637e53335a6653929060469d",
         "picture": "https://media.istockphoto.com/id/1326480457/photo/working-out-man-training-legs-and-core-ab-workout-doing-lunge-twist-exercise-with-medicine.jpg?s=612x612&w=0&k=20&c=4WgHty6gNkJpQ_nuOoKT5FdY0HOc9jvK4Tb4vC_ddWk=",
         "age": "22-32",
         "time": 25,

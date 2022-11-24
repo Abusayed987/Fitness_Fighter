@@ -57,14 +57,16 @@ p {
     background-color: #F0F4F6;
 }
 
-.break-details p {
+.break-details button {
     padding: 10px;
     border-radius: 50%;
     cursor: pointer;
     background-color: #fff;
+    border: none;
+    font-size: 16px;
 }
 
-.break-details p:hover {
+.break-details button:hover {
     color: #fff;
     background-color: #dd3785d8;
 }

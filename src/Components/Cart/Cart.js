@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './Cart.css'
 import profileImg from '../../images/coding_zone.png';
 const Cart = () => {
+    let [timeOne, timeTwo, timeThree, timeFour] = [10, 20, 30, 40];
+    const [time, setTime] = useState([])
+    const breakHandler = (time) => {
+        setTime(time)
+    }
     return (
         <div className='cart-container'>
             <div className='profile'>
@@ -24,11 +29,10 @@ const Cart = () => {
             </div>
             <h3 className='title-name' style={{ color: '#212432' }}>Add A Break </h3>
             <div className='break-details'>
-                <p>10s</p>
-                <p>20s</p>
-                <p>30s</p>
-                <p>40s</p>
-                <p>50s</p>
+                <button onClick={() => breakHandler(timeOne)}>{timeOne}s</button>
+                <button onClick={() => breakHandler(timeTwo)}>{timeTwo}s</button>
+                <button onClick={() => breakHandler(timeThree)}>{timeThree}s</button>
+                <button onClick={() => breakHandler(timeFour)}>{timeFour}s</button>
             </div>
             <h3 className='title-name' style={{ color: '#212432' }}>Exercise Details</h3>
             <div className='exercise-details'>
@@ -37,7 +41,7 @@ const Cart = () => {
             </div>
             <div className='break-time-details'>
                 <h4>Break time </h4>
-                <p>15 seconds</p>
+                <p><b>{time}</b> <span className='text-color'>seconds</span></p>
             </div>
             <button className='cart-btn'>Activity Completed</button>
         </div>
