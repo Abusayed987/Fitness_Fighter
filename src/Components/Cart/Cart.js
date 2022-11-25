@@ -1,10 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import './Cart.css'
+import { ToastContainer, toast } from 'react-toast'
 import profileImg from '../../images/coding_zone.png';
+
+
 const Cart = (props) => {
+
     let [timeOne, timeTwo, timeThree, timeFour] = [10, 20, 30, 40];
     const { cart } = props;
-    const [time, setTime] = useState("")
+    const [time, setTime] = useState([])
     const breakHandler = (time) => {
         setTime(time);
         localStorage.setItem('breakTime', time)
@@ -14,6 +18,19 @@ const Cart = (props) => {
         excerciseTime = excerciseTime + product.time
         // console.log(excerciseTime);
     }
+
+    const toastNofify = () => toast.success('WoW you Todays activity Completed!', {
+        position: "top-center",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+        color: "#fff",
+        backgroundColor: "#dd3785d8"
+    });
 
     return (
         <div className='cart-container'>
@@ -51,7 +68,21 @@ const Cart = (props) => {
                 <h4>Break time </h4>
                 <p><b>{localStorage.getItem('breakTime')}</b> <span className='text-color'>seconds</span></p>
             </div>
-            <button className='cart-btn'>Activity Completed</button>
+            <button onClick={toastNofify} className='cart-btn'>Activity Completed
+                <ToastContainer
+                    position="top-center"
+                    autoClose={5000}
+                    hideProgressBar={false}
+                    newestOnTop={false}
+                    closeOnClick
+                    rtl={false}
+                    pauseOnFocusLoss
+                    draggable
+                    pauseOnHover
+                    theme="light"
+                    delay={2300}
+                />
+            </button>
         </div>
     );
 };
