@@ -10,7 +10,7 @@ const Question = () => {
             <div className='question'>
                 <h2><span className='color'> Question 01: </span> How Does React Works
                 </h2>
-                <h3>Ans:  </h3>
+                <h3>Ans: ReactJS divides the UI into isolated reusable pieces of code known as components. React components work similarly to JavaScript functions as they accept arbitrary inputs called properties or props. It's possible to have as many components as necessary without cluttering code. </h3>
             </div>
             <div className='question'>
                 <h2><span className='color'> Question 02: </span> What is the difference between props and state in react component?

@@ -10,3 +10,8 @@
 .question {
     margin-left: 50px;
 }
+
+.question h3 {
+    word-spacing: 1px;
+    line-height: 25px;
+}
