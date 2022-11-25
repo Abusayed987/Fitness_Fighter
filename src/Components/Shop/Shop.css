@@ -39,3 +39,24 @@
     /* position: sticky; */
     top: 10px;
 }
+
+/* for laptop */
+@media screen and (max-width:1024px) {
+    .product-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* for tablet */
+@media screen and (max-width:768px) {
+    .product-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/* for mobile */
+@media screen and (max-width:425px) {
+    .product-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
